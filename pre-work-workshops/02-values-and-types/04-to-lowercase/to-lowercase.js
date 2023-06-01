@@ -1,1 +1,2 @@
-// YOUR CODE BELOW
+let name = "TEJ FELLOWSHIP";
+console.log(name.toLowerCase());
