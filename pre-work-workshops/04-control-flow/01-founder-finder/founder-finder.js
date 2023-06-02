@@ -1,14 +1,17 @@
-let name = "David";
-let name1 = "Nimit";
-// let name = 'Someone else';
+//let name = "David";
+//let name = "Nimit";
+let name = "Someone else";
 
-let found = "true";
+let found;
 if (name === "David") {
+  found = true;
   console.log(found);
-} else if (name1 === "Nimit") {
+} else if (name === "Nimit") {
+  found = true;
   console.log(found);
 } else {
-  console.log("they are all false");
+  found = false;
+  console.log(found);
 }
 
 // YOUR CODE BELOW
