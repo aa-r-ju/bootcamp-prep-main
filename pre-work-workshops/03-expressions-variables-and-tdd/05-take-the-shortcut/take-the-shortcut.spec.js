@@ -1,7 +1,5 @@
-describe("happyNum", function() {
-
-  it("should be equal to 5", function() {
-    expect(happyNum).toEqual(5);
+describe("happyNum", function () {
+  it("should be equal to 5", function () {
+    expect(happyNum1).toEqual(5);
   });
-
 });

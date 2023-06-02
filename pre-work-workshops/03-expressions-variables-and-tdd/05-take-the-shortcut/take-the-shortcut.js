@@ -1,3 +1,10 @@
-let happyNum = 1000;
-
-// YOUR CODE BELOW
+let happyNum1 = 1000;
+//let num1 = 6000;
+//let result = (num1 /= happyNum1);
+//console.log(result);
+happyNum1 /= 200;
+happyNum1 -= 2;
+happyNum1 += 2;
+//console.log(result);
+//happyNum1 = result;
+//console.log(happyNum1 === result);
