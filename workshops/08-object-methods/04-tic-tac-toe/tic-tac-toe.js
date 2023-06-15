@@ -1,4 +1,2 @@
-// YOUR CODE BELOW
-let ticTacToe = {
-    board: [[][][]]
-} 
+console.log("hello");
+hello;
