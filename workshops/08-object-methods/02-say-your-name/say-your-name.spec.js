@@ -16,10 +16,10 @@ describe('me2', () => {
 
   })
 
-  describe('getGreeting', () => {
+  describe('myGreeting', () => {
 
     it('is a method in me2', () => {
-      expect('getGreeting' in me2).toEqual(true);
+      expect('myGreeting' in me2).toEqual(true);
     });
 
     it('is a function', () => {

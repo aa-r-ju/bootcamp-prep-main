@@ -1,1 +1,6 @@
-// YOUR CODE BELOW
+let me2 = {
+    name : "",
+    myGreeting:function () {
+        
+    }
+}

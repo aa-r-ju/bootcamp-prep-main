@@ -5,7 +5,7 @@ another object with a name property. The returned greeting should now greet the
 other object by name.
 
 ```javascript
-console.log(me2.name); // 'Tarana'
+comnsole.log(me2.name); // 'Tarana'
 console.log(you.name); // 'Alyssa'
 me2.getGreeting(you); // => 'Hi Alyssa, my name is Tarana.'
 ```
