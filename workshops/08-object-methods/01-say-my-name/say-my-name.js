@@ -1,11 +1,12 @@
 // YOUR CODE BELOW
 let me = {
-    name : "",
-    getGreeting:function (name) {
-        console.log("Hi, my name is " + name )
+    name : "Aarju",
+    getGreeting:function () {
+       
+       return `Hi, my name is ${this.name}.`
     }
 }
-me.getGreeting("Kat")
+
 
 
 

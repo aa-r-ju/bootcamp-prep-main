@@ -32,12 +32,38 @@
 // //];
 
 // console.log(returnedValue);
-let cat = {
-    name: "Pusheen",
-    age: 7,
-    color: "gray and tabby",
-  };
-  let keyToCheck = "name";
-  console.log(cat.name);
-  console.log();
+// let cat = {
+//     name: "Pusheen",
+//     age: 7,
+//     color: "gray and tabby",
+//   };
+//   let keyToCheck = "name";
+//   console.log(cat.name);
+//   console.log();
   
+
+function makeGrid(numColumns, numRows) {
+  let grid = [];
+
+  for (let i = 0; i < numRows; i++) {
+    let row = [];
+
+    for (let j = 1; j <= numColumns; j++) {
+      row.push(j);
+    }
+
+    grid.push(row);
+  }
+
+  return grid;
+}
+
+console.log(makeGrid(3, 4));
+/* Output:
+[
+  [1, 2, 3],
+  [1, 2, 3],
+  [1, 2, 3],
+  [1, 2, 3]
+]
+*/

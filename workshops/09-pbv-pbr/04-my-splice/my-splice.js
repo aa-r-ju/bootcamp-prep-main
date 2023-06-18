@@ -1,30 +1,29 @@
-function mySplice(array, start, deleteCount, newItem) {
-    const removedItems = [];
-    const newArray = array.slice();
-    if (start < 0) {
-      start = Math.max(newArray.length + start, 0);
-    } else {
-      start = Math.min(start, newArray.length);
-    }
-    for (let i = 0; i < deleteCount; i++) {
-      if (start + i < newArray.length) {
-        removedItems.push(newArray[start + i]);
-        newArray[start + i] = undefined;
-      }
-    }
-    let newIndex = start;
-    for (let i = start + deleteCount; i < newArray.length; i++) {
-      newArray[newIndex++] = newArray[i];
-    }
-    newArray.length = Math.max(newArray.length - deleteCount, 0);
-    newArray.splice(start, 0, newItem);
-    for (let i = 0; i < newArray.length; i++) {
-      array[i] = newArray[i];
-    }
-    return removedItems;
+function mySplice(arr, startIdx, rmvNo, addElement) {
+  let newArray = []
+  let deleteElements = []
+  for (let k = 0; k < startIdx; k++) {
+      newArray.push(arr[k])
   }
-  
-  let myArray = [1, 2, 3];
-  
-  console.log(mySplice(myArray, 1, 1, 'apples')); 
-  console.log(myArray);
+  if (addElement !== undefined) {
+      newArray.push(addElement)
+  }
+  for (let i = startIdx; i < startIdx + rmvNo; i++) {
+      deleteElements.push(arr[i])
+  }
+  for (let j = startIdx + rmvNo; j < arr.length; j++) {
+      newArray.push(arr[j])
+  }
+  for (let k = 0; k < arr.length; k++) {
+      arr.pop()
+  }
+  for (let i = 0; i < newArray.length; i++) {
+      arr[i] = newArray[i]
+  }
+  // console.log(deleteElements)
+  // console.log(newArray)
+  return deleteElements
+}
+// mySplice([1, 2, 3], 1, 1, 'mangoes')
+// let arr = [1, 2, 3, 4, 5, 6, 7]
+// mySplice(arr, 1, 2)
+// console.log(arr)
