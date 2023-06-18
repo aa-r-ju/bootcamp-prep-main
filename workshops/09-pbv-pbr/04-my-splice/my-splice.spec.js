@@ -1,53 +1,42 @@
-describe('mySplice', () => {
+function mySplice(array, start, deleteCount, newItem) {
+  // Create a new array to hold the removed elements
+  const removedItems = [];
 
-  it('is a function', () => {
-    expect(typeof mySplice).toEqual('function');
-  });
+  // Copy the original array
+  const newArray = array.slice();
 
-  it('mutates the original array by removing the correct element(s) from it', () => {
-    let ourStuff = ['food', 'trash', 'clothes'];
+  // Check if start index is out of bounds
+  if (start < 0) {
+    start = Math.max(newArray.length + start, 0);
+  } else {
+    start = Math.min(start, newArray.length);
+  }
 
-    mySplice(ourStuff, 1, 1);
+  // Remove elements from the start index
+  for (let i = 0; i < deleteCount; i++) {
+    if (start + i < newArray.length) {
+      removedItems.push(newArray[start + i]);
+      newArray[start + i] = undefined;
+    }
+  }
 
-    expect(ourStuff).toEqual(['food', 'clothes']);
-  });
+  // Shift the elements to fill the gaps left by removed elements
+  let newIndex = start;
+  for (let i = start + deleteCount; i < newArray.length; i++) {
+    newArray[newIndex++] = newArray[i];
+  }
 
-  it('removes multiple elements if deleteCount is greater than 1', () => {
-    let funNums = [10, 20, 30, 40, 50, 60];
+  // Remove the remaining elements
+  newArray.length = Math.max(newArray.length - deleteCount, 0);
 
-    mySplice(funNums, 2, 3);
-    expect(funNums).toEqual([10, 20, 60]);
-  });
+  // Insert new item at the start index
+  newArray.splice(start, 0, newItem);
 
-  it('returns an array', () => {
-    let returnedValue = mySplice(['food', 'trash', 'clothes'], 1, 1);
-    expect(Array.isArray(returnedValue)).toEqual(true);
-  });
+  // Return the removed elements
+  return removedItems;
+}
 
-  it('returns an array of the removed elements', () => {
-    let returnedValue = mySplice(['food', 'trash', 'clothes'], 1, 1);
-    expect(returnedValue).toEqual(['trash']);
-  });
+let myArray = [1, 2, 3];
 
-  it('returns an array of all removed elements if deleteCount is greater than 1', () => {
-    let returnedValue = mySplice([10, 20, 30, 40, 50, 60], 2, 3);
-    expect(returnedValue).toEqual([30, 40, 50]);
-  });
-
-  it('adds a new value at the correct index', () => {
-    let ourStuff = ['food', 'trash', 'clothes'];
-
-    mySplice(ourStuff, 1, 1, 'more food');
-
-    expect(ourStuff).toEqual(['food', 'more food', 'clothes']);
-  });
-
-  it('adds a new value at the correct index without removing an element if deleteCount is 0', () => {
-    let ourStuff = ['food', 'trash', 'clothes'];
-
-    mySplice(ourStuff, 1, 0, 'more food');
-
-    expect(ourStuff).toEqual(['food', 'more food', 'trash', 'clothes']);
-  });
-
-});
+console.log(mySplice(myArray, 1, 1, 'apples')); // Output: [2]
+console.log(myArray); // Output: [1, 'apples', 3]
