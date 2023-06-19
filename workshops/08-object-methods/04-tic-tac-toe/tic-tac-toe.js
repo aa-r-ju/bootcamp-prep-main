@@ -26,7 +26,9 @@ let ticTacToe = {
   board: [[null, null, null], [null, null, null], [null, null, null]],
 
   move: function(character, rowNum, colNum) {
-    this.board[rowNum][colNum] = character;
+    if (this.board[rowNum][colNum] === null) {
+      this.board[rowNum][colNum] = character;
+    }
     console.log(this.board);
     return this.board;
   },

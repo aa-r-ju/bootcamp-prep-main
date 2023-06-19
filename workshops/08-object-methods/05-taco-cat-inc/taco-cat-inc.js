@@ -25,11 +25,12 @@ let tacoCatInc = {
       if (typeof this[ingredientCategory] === 'object') {
         for (let ingredient in this[ingredientCategory]) {
           let item = this[ingredientCategory][ingredient];
+          console.log("item",item)
           inventoryValue += item.cost * item.quantity;
         }
       }
     }
-    
+    console.log("inv",inventoryValue)
     return inventoryValue;
   },
   

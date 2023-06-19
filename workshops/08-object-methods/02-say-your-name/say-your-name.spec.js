@@ -23,7 +23,7 @@ describe('me2', () => {
     });
 
     it('is a function', () => {
-      expect(typeof me2.getGreeting).toEqual('function');
+      expect(typeof me2.myGreeting).toEqual('function');
     });
 
     it('returns the correct greeting', () => {
@@ -31,7 +31,7 @@ describe('me2', () => {
         name: 'Jeff'
       };
 
-      let returnedValue = me2.getGreeting(friend);
+      let returnedValue = me2.myGreeting(friend);
       expect(returnedValue).toEqual(`Hi Jeff, my name is ${me2.name}.`);
     });
 
