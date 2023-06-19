@@ -62,7 +62,7 @@ describe('getDogBreeder', () => {
         let dogBreeder = getDogBreeder('Rufus', 5)
         let returnedValue = dogBreeder(10);
 
-        let expectedValue = {
+        expectedValue = {
           name: 'Rufus',
           age: 10
         };
