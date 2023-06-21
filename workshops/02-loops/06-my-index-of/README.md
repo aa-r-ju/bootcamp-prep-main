@@ -30,4 +30,4 @@ myIndexOf('twice twice', 'ice'); => 2
 myIndexOf('twice twice', 'ice', 5); => 8
 
 myIndexOf('happy string', 'sad'); => -1
-```
+``` 
