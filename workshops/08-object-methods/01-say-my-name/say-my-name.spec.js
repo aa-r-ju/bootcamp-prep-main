@@ -10,7 +10,7 @@ describe('me', () => {
       expect('name' in me).toEqual(true);
     });
 
-    it('is a string', () => {
+    it('is a string', () => {    
       expect(typeof me.name).toEqual('string');
     });
 
