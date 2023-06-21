@@ -112,7 +112,7 @@ function testFour(msg) {
       return testFourMessage;
     }
 
-    testFourMessage = doubleInner();
+    testFourMessage = doubleInner(); 
   }
 
   innerFunc();
