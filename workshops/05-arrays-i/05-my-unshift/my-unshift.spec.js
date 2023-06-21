@@ -1,7 +1,7 @@
 describe('myUnshift', () => {
 
   it('is a function', () => {
-    expect(typeof unshift).toEqual('function');
+    expect(typeof myUnshift).toEqual('function');
   });
 
   it('returns an array', () => {

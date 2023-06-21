@@ -1,10 +1,11 @@
+// let happyNum = 10; // Starting value assigned to happyNum
+
+// happyNum -= 5; // Subtract 5 from happyNum
+// console.log(happyNum); // Output: 5
+
+
 let happyNum1 = 1000;
-//let num1 = 6000;
-//let result = (num1 /= happyNum1);
-//console.log(result);
-happyNum1 /= 200;
-happyNum1 -= 2;
-happyNum1 += 2;
-//console.log(result);
-//happyNum1 = result;
-//console.log(happyNum1 === result);
+ happyNum1 /= 500;
+ happyNum1 *= 2;
+ happyNum1 +=1;
+ console.log(happyNum1)

@@ -67,6 +67,7 @@
 let testOneMessage = 'test failing';
 
 function testOne() {
+  testOneMessage = "test succeeding"
   return testOneMessage;
 }
 
@@ -107,7 +108,7 @@ function testFour(msg) {
     let msg = testFourMessage;
 
     function doubleInner() {
-      testFourMessage = 'test failing';
+     
       return testFourMessage;
     }
 

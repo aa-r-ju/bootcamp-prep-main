@@ -98,7 +98,7 @@ function jaws(agent) {
   bond = 'Body Double';
 
   let AgentinScope = (agent === '007');
-  let prediction = false;
+  let prediction = true;
 
   return AgentinScope === prediction;
 }
@@ -108,7 +108,7 @@ function elChiffre() {
   bond = 'Body Double';
 
   let AgentinScope = (agent === '007');
-  let prediction = true;
+  let prediction = false;
 
   return AgentinScope === prediction;
 }

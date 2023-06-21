@@ -52,17 +52,17 @@ let tacoCatInc = {
   }
 };
 
-console.log(tacoCatInc.currentInventory()); // => 1710
+// console.log(tacoCatInc.currentInventory()); // => 1710
 
-let order = {
-  gourmetShell: 'hard treat shell',
-  gourmetFishFilling: 'salmon'
-};
+// let order = {
+//   gourmetShell: 'hard treat shell',
+//   gourmetFishFilling: 'salmon'
+// };
 
-console.log(tacoCatInc.sale(order)); // => 7
-console.log(tacoCatInc.sale(order)); // => 7
+// console.log(tacoCatInc.sale(order)); // => 7
+// console.log(tacoCatInc.sale(order)); // => 7
 
-console.log(tacoCatInc.gourmetFishFilling.tuna.quantity); // => 98
-console.log(tacoCatInc.cash); // => 14
+// console.log(tacoCatInc.gourmetFishFilling.tuna.quantity); // => 98
+// console.log(tacoCatInc.cash); // => 14
 
-console.log(tacoCatInc.currentInventory()); // => 1696
+// console.log(tacoCatInc.currentInventory()); // => 1696
