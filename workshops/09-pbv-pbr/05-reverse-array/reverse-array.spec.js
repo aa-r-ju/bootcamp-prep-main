@@ -10,7 +10,7 @@ describe('reverseArray', () => {
     let returnedValue = reverseArray(originalArray);
     expect(returnedValue).toEqual(originalArray);
   });
-
+   
   it('mutates the original array by reversing its elements in place', () => {
     let originalArray = ['here', 'we', 'go'];
 
