@@ -14,7 +14,7 @@ describe('ticTacToe', () => {
   describe('board', () => {
     it('is a propery of ticTacToe', () => {
       expect('board' in ticTacToe).toEqual(true);
-    });
+    });    
 
     it('is an array', () => {
       expect(Array.isArray(ticTacToe.board)).toEqual(true);
