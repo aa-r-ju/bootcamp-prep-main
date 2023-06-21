@@ -21,7 +21,7 @@ describe('rotateArray', () => {
 
   it('returns the original array if rotateNum is 0', () => {
     let returnedValue = rotateArray(['first', 'second', 'third', 'fourth'], 0);
-    expect(returnedValue).toEqual(['first', 'second', 'third', 'fourth']);
+    expect(returnedValue).toEqual(['first', 'second', 'third', 'fourth']);   
   });
 
 });
