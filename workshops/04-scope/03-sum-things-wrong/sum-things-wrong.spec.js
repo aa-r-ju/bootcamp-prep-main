@@ -22,6 +22,6 @@ describe('sumThingsWrong', () => {
   it('returns the sum of two negative numbers', () => {
     let returnedValue = sumThingsWrong(-1, -1);
     expect(returnedValue).toEqual(-2);
-  });
+  }); 
 
 });
