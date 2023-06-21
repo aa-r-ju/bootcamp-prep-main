@@ -17,7 +17,7 @@ describe('veryOddMutant', () => {
   });
    
   it('returns the count of the number of even numbers replaced', () => {
-    let originalArray = [5, 10, 15, 20];
+    let originalArray = [5, 10, 15, 20];   
     let returnedValue = veryOddMutant(originalArray);
     expect(returnedValue).toEqual(2);
   });
