@@ -15,7 +15,7 @@ describe('tacoCatInc', () => {
       expect(typeof tacoCatInc.currentInventory).toEqual('function');
     });
 
-    it('returns a number', () => {
+    it('returns a number', () => {    
       let returnedValue = tacoCatInc.currentInventory();
       expect(typeof returnedValue).toEqual('number');
     });
