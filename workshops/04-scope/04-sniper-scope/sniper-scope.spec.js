@@ -53,5 +53,5 @@ describe('elChiffre', () => {
     let returnedValue = elChiffre();
     expect(returnedValue).toEqual(true);
   });
-
+ 
 });
