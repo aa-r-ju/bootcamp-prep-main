@@ -16,7 +16,7 @@ let transactions = [
     name: "Porcelain Pink Flamingos",
     amount: 92
   },
-  {
+  {    
     name: "Chandelier replacement",
     amount: 10000,
   },
