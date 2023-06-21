@@ -16,7 +16,7 @@ describe('mySplice', () => {
     let funNums = [10, 20, 30, 40, 50, 60];
 
     mySplice(funNums, 2, 3);
-    expect(funNums).toEqual([10, 20, 60]);
+    expect(funNums).toEqual([10, 20, 60]);   
   });
 
   it('returns an array', () => {
