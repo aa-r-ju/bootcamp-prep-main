@@ -11,7 +11,7 @@ function billerBuilder(state) {
       return function(price) {
         let shippingCost = price * 0.05;
         let tax = (price + shippingCost) * 0.06625;
-        let finalPrice = price + shippingCost + tax;
+        let finalPrice = price + shippingCost + tax;    
         return finalPrice;
       };
     } else {
