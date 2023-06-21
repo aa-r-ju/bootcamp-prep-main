@@ -5,7 +5,7 @@ function onlyOne(a, b, c) {
     if (a) {
       numTruthy++;
     }
-    
+     
     if (b) {
       numTruthy++;
     }
