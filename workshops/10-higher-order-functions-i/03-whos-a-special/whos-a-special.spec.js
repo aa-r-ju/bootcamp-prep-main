@@ -10,7 +10,7 @@ describe('whosASpecial', () => {
   });
 
   it('returns a happy string confirming that all pets are special', () => {
-    let specialPets = [{
+    let specialPets = [{    
         name: 'Mr. Binns',
         species: 'cat'
       }, {
