@@ -6,4 +6,4 @@ capitalized. The first letter should be lower-cased.
 
 ```javascript
 crazyCaps('fullstack is amazing'); // => fUlLsTaCk iS AmAzInG!
-```
+``` 
