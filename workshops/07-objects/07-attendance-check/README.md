@@ -8,7 +8,7 @@ the week.
 
 ```javascript
 
-classCheck('Monday'); // => ['Marnie', 'Shoshanna']
+classCheck('Monday'); // => ['Marnie', 'Shoshanna']   
 
 classCheck('Wednesday'); // => ['Marnie', 'Lena']
 ```
