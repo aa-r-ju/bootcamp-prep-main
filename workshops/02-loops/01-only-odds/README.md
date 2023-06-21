@@ -9,3 +9,4 @@ If `onlyOdds` receives an argument less than 1, it should return 0.
 ```javascript
 onlyOdds(6); // => 9 (5 + 3 + 1)
 ```
+ 
