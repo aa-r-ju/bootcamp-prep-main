@@ -13,6 +13,6 @@ function isEven(num) {
   return !(num % 2);
 }
 
-console.log(finderFunction(numbers, isEven)) // 3
+console.log(finderFunction(numbers, isEven)) // 3    
 console.log(finderFunction(odds, isEven)) // -1
 ```
