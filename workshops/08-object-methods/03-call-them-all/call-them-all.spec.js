@@ -24,7 +24,7 @@ describe('callThemAll', () => {
       }
     };
 
-    let returnedValue = callThemAll(numFun, 25);
+    let returnedValue = callThemAll(numFun, 25);   
     expect(returnedValue.length).toEqual(3);
   });
 
