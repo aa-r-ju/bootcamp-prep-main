@@ -9,4 +9,4 @@ function myOr(a, b, c) {
   
   console.log(myOr(true, true, false) === (true || true || false)); // Output: true
   console.log(myAnd(1, 'apples', true) === (1 && 'apples' && true)); // Output: true
-  
+    
