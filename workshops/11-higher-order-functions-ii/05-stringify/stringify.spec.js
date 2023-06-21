@@ -15,7 +15,7 @@ describe('stringify', () => {
 
     let returnedFunction = stringify(returnsBoolean);
     let returnedValue = returnedFunction();
-
+   
     expect(typeof returnedValue).toEqual('string');
   });
 
