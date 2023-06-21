@@ -11,3 +11,4 @@ compareObjects({ name: 'nick' }, { name: 'nick' }) // -> true
 
 compareObjects({ name: 'zeke' }, { name: 'zeke', age: 12 }) // -> false
 ```
+    
