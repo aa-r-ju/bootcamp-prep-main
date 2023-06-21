@@ -15,7 +15,7 @@ describe('veryOdd', () => {
   });
 
   it('does not mutate the original array', () => {
-    let originalArray = [5, 10, 15, 20];
+    let originalArray = [5, 10, 15, 20];   
     veryOdd(originalArray);
     expect(originalArray).toEqual([5, 10, 15, 20]);
   });
