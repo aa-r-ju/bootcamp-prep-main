@@ -22,7 +22,7 @@ describe('me2', () => {
       expect('myGreeting' in me2).toEqual(true);
     });
 
-    it('is a function', () => {
+    it('is a function', () => {   
       expect(typeof me2.myGreeting).toEqual('function');
     });
 
