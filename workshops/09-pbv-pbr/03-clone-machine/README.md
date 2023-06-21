@@ -15,7 +15,7 @@ let dolly = {
   species: 'sheep',
   offspring: []
 }
-
+   
 let dollyClone = cloneMachine(dolly);
 
 console.log(dollyClone) // {name: 'DollyClone', species: 'sheep', offspring: []}
