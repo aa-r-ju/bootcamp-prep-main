@@ -8,7 +8,7 @@ describe('removeColumns', () => {
     let returnedValue = removeColumns([[1, 2]], 1);
     expect(Array.isArray(returnedValue)).toEqual(true);
   });
-
+   
   it('returns a grid with one column removed, given the number 1', () => {
     let originalGrid = [
       [1, 2, 3],
