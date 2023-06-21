@@ -11,5 +11,6 @@ Feel free to use it on any future problem though! Note that strings have an
 
 ```javascript
 myIncludes([10, 20, 30], 20); // => true
-myIncludes(['apples', 'bananas', 'citrus'], 'pears'); // => false
+myIncludes(['apples', 'bananas', 'citrus'], 'pears'); // => false   
 ```
+  
