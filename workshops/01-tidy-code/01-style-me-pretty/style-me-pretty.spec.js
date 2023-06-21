@@ -1,7 +1,7 @@
 describe('styleMePretty', function() {
 
   it('is a function', function() {
-    expect(typeof styleMePretty).toEqual('function');
+    expect(typeof styleMePretty).toEqual('function'); 
   });
 
   it('returns a string', function() {
