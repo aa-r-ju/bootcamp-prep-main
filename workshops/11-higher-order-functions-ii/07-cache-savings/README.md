@@ -21,7 +21,7 @@ function adds10(num) {
     end = Date.now();
   }
 
-  return num + 10;
+  return num + 10;   
 }
 
 let cachedAdds10 = cacheSavings(adds10);
