@@ -14,3 +14,4 @@ smaller than the currentNum, return the string 'targetNum must be larger than cu
 ```javascript
 bacteriaTime(1, 8); // => 60
 ```
+ 
