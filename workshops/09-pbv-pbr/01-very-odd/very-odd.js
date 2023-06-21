@@ -8,4 +8,4 @@ function veryOdd(numbers) {
   
   console.log('oddNums:', oddNums); 
   console.log('allTheNums:', allTheNums); 
-  
+     
