@@ -14,5 +14,5 @@ function summer (a, b) {
 };
 
 let sumFive = partial(summer, 5);
-sumFive(10) // => 15;
+sumFive(10) // => 15;   
 ```
