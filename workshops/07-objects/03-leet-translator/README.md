@@ -9,7 +9,7 @@ characters.
 original string into leet.
 
 The leet codex is below, along with an array of english letters and an array of
-the corresponding leet characters. Use the two arrays to create a leetCodex
+the corresponding leet characters. Use the two arrays to create a leetCodex   
 object to use in making the translations.
 
 ```javascript
