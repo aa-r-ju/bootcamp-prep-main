@@ -14,7 +14,7 @@ function zooInventory(array) {
     return inventory;
   }
   //let name = [["Nemo", ["Fish", 5]]];
-  let zoo = [["Bai Yun", ["panda", 26]]];
+  let zoo = [["Bai Yun", ["panda", 26]]]; 
   
   console.log(zooInventory(zoo));
   
