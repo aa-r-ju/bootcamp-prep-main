@@ -17,3 +17,4 @@ myForEach(nums, addToSum);
 
 console.log(sum); // 6
 ```
+    
