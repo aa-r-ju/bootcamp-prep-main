@@ -10,7 +10,7 @@ The name of the clone should be the name of its parent, concatenated with the wo
 array.
 
 ```javascript
-let dolly = {
+let dolly = {   
   name: 'Dolly',
   species: 'sheep',
   offspring: []
