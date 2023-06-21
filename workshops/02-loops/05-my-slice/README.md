@@ -31,3 +31,4 @@ You can assume the startIdx will always be less than or equal to the endIdx.
 
 Do not use the built in [.slice string method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice). Feel free to use it in all future
 workshop problems, though!
+ 
