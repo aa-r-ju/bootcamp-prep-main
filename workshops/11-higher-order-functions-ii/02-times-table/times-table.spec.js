@@ -13,7 +13,7 @@ describe('timesTable', () => {
     let returnedValue = timesTable(7);
     let product = returnedValue(8);
 
-    expect(product).toEqual(56);
+    expect(product).toEqual(56);   
   });
 
 });
