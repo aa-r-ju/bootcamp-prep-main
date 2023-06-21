@@ -12,5 +12,5 @@ Do not use the built-in [Math.pow() method](https://developer.mozilla.org/en-US/
 
 ```javascript
 exponentiate(2, 2)    // => 4
-exponentiate(3, 4)    // => 81
+exponentiate(3, 4)    // => 81 
 ```
