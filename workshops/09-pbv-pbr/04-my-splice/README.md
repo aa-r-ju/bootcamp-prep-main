@@ -17,3 +17,4 @@ mySplice(myArray, 1, 1, 'apples')) // => [2]
 
 console.log(myArray)    // [1,'apples', 3]
 ```
+   
