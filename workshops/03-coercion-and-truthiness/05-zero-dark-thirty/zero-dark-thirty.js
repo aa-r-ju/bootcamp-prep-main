@@ -6,7 +6,7 @@ function zeroDarkThirty(number) {
     
     var numberString = number.toString();
     var resultString = '';
-    
+     
     for (var i = 0; i < numberString.length; i++) {
       if (numberString[i] !== '0') {
         resultString += numberString[i];
