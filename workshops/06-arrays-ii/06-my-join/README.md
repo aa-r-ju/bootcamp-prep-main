@@ -9,7 +9,7 @@ togther. The separator should separate the joined elements:
 
 ```javascript
 myJoin(['let\'s', 'make', 'a', 'list'], ' '); // => "let's make  a list"
-myJoin(['a', 'b', 'c'], '+'); // => "a+b+c"
+myJoin(['a', 'b', 'c'], '+'); // => "a+b+c"  
 ```
 
 If separator is undefined, use ',' as the default separator.
