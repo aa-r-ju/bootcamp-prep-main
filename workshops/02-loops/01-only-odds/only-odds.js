@@ -1,16 +1,15 @@
 function onlyOdds(number) {
-  if (number < 1) {
+  if(number < 1) {
     return 0;
-  }
-
-  let sum = 0;
-  for (let i = number; i >= 1; i--) {
-    if (i % 2 !== 0) {
-      sum += i;
+  } else{
+  let remainder = 0;
+  for(let i = 1; i<=number; i++) {
+    if(i %2 !== 0 ) {
+      remainder+=i
     }
   }
-
-  return sum;
-}
-
+return remainder
+  }
+  }
+debugger
 console.log(onlyOdds(6)); // Output: 9
