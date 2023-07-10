@@ -4,16 +4,16 @@ function zeroDarkThirty(number) {
       return NaN;
     }
     
-    var numberString = number.toString();
-    var resultString = '';
+    let numberString = number.toString();
+    let resultString = '';
      
-    for (var i = 0; i < numberString.length; i++) {
+    for (let i = 0; i < numberString.length; i++) {
       if (numberString[i] !== '0') {
         resultString += numberString[i];
       }
     }
-    
-    return parseFloat(resultString);
+    let num = Number(resultString)
+    return (num);
   }
   
   console.log(zeroDarkThirty(102302)); // Output: 1232
