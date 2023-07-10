@@ -1,14 +1,6 @@
-// let myFirstName = "Aarju";
-// console.log(myFirstName);
-// let myFavoriteNum = 9;
-// console.log(myFavoriteNum);
-// let havingFun = true;
-// console.log(havingFun);
-
-
 let myFirstName = "Aarju";
-console.log(myFirstName)
 let myFavoriteNum = 9;
+let havingFun = true;
+console.log(myFirstName)
 console.log(myFavoriteNum)
-let havingFun = true
-console.log(havingFun) 
+console.log(havingFun)
