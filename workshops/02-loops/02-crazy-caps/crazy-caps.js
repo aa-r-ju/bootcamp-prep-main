@@ -9,6 +9,6 @@ function crazyCaps(str) {
       newStr += str[i].toUpperCase();
     }
   }
-  return newStr + "!";
+  return newStr;
 }
 console.log(crazyCaps("tej is amazing"));
