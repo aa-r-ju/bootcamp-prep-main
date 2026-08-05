@@ -7,8 +7,17 @@ function myOr(...arg) {
   }
   return arg[arg.length - 1];
 }
-console.log(myOr(true, true, false));
-console.log(myOr(false, false, true));
-console.log(myOr(false, false, false));
-console.log(myOr("apple", false, false));
-console.log(myOr(0, "", false));
+
+function myAnd(...arg) {
+  for (let i = 0; i < arg.length; i++) {
+    if (!arg[i]) {
+      return arg[i];
+    }
+  }
+  return arg[arg.length - 1];
+}
+
+console.log(myAnd(1, "apples", true));
+console.log(myAnd(0, "apples", true));
+console.log(myAnd(5, "apples", false));
+console.log(myAnd(9, "orange", "ball"));
