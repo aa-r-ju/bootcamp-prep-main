@@ -5,7 +5,6 @@ function allSystemsGo(obj) {
   }
 
   let values = Object.values(obj);
-  console.log(values);
 
   for (let i = 0; i < values.length; i++) {
     if (!allSystemsGo(values[i])) {
